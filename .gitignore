@@ -1,3 +1,6 @@
+si/
+*.tmp
+~$*
 # Object files
 *.o
 *.ko
