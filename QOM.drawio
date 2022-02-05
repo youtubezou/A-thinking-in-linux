@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-05T21:44:04.516Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="sQxGFzzEH25NM3OBeYqu" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-05T21:44:25.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="bI4f5W5t9CXpraH3-lCo" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="584" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
         <mxCell id="cbHXqA8iSh3WtXbqqi32-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-54">
           <mxGeometry y="141" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="cbHXqA8iSh3WtXbqqi32-57" value="+ ObjectUnparent *unparent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-54">
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-57" value="+ void (ObjectUnparent)(Object *obj)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-54">
           <mxGeometry y="149" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
