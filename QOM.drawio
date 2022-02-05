@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-05T21:48:20.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="qAbyjUd8kuE6QUOmZZVT" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-05T21:48:58.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="R6F3v5S5-KL5nDU4CFA0" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="584" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -206,7 +206,7 @@
           <mxGeometry y="170" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-64" value="Object" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="550" width="160" height="196" as="geometry" />
+          <mxGeometry x="590" y="550" width="160" height="167" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-65" value="- ObjectClass *class" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
           <mxGeometry y="26" width="160" height="23" as="geometry" />
@@ -214,20 +214,20 @@
         <mxCell id="cbHXqA8iSh3WtXbqqi32-73" value="- GHashTable *properties" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
           <mxGeometry y="49" width="160" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="cbHXqA8iSh3WtXbqqi32-67" value="- uint32_t ref" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-74" value="- uint32_t ref" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
           <mxGeometry y="70" width="160" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="cbHXqA8iSh3WtXbqqi32-68" value="- char *object_cast_cache[]&#xa;Object类型动态Cast类型名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
-          <mxGeometry y="91" width="160" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="cbHXqA8iSh3WtXbqqi32-69" value="- char *class_cast_cache[]&#xa;ObjectClass类型动态Cast" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
-          <mxGeometry y="128" width="160" height="34" as="geometry" />
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-67" value="- Object *parent&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
+          <mxGeometry y="91" width="160" height="21" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-70" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
-          <mxGeometry y="162" width="160" height="8" as="geometry" />
+          <mxGeometry y="112" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="cbHXqA8iSh3WtXbqqi32-71" value="+ void (unparent)(Object*)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
-          <mxGeometry y="170" width="160" height="26" as="geometry" />
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-71" value="+ void (ObjectFree)(void *obj)t*)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
+          <mxGeometry y="120" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-76" value="- Object *parent&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
+          <mxGeometry y="146" width="160" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
