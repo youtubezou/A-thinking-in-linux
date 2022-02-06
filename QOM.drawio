@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T11:25:57.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="jSO72uwA8tFnlzjbVhk6" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-06T11:26:28.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="SDPNORHIiUeMlHVIla62" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1460" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -392,6 +392,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-169" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-167">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-170" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cbHXqA8iSh3WtXbqqi32-73" target="9ArbLTDUJ1wJR90HOPjB-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="430" as="sourcePoint" />
+            <mxPoint x="190" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-171" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-170">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-172" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-170">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
       </root>
