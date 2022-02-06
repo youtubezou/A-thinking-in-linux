@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T03:17:10.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="af7p6hpe-6p73v80WmKW" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-06T03:17:42.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="HBV9O1HGQtOVenmDmtnB" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1052" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry y="66" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-5" value="TYPE_INTERFACE&lt;br&gt;&quot;interface&quot;" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="110" width="110" height="30" as="geometry" />
+          <mxGeometry x="1180" y="500" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-6" value="TypeImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="260" width="160" height="86" as="geometry" />
@@ -80,7 +80,7 @@
           <mxGeometry y="301" width="210" height="21" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-18" value="TYPE_OBJECT&lt;br&gt;&quot;object&quot;" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="167" width="110" height="30" as="geometry" />
+          <mxGeometry x="910" y="500" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-19" value="ObjectProperty" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="540" width="200" height="309" as="geometry" />
