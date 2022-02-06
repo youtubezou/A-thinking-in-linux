@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T09:02:28.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="wCpz0-MtTka4GCFPI0Oo" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-06T09:09:42.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="AaiU7YTHp2D8RbFQlWbc" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1460" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -26,16 +26,25 @@
           <mxGeometry x="1330" y="510" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-6" value="TypeImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1152.5" y="763" width="160" height="86" as="geometry" />
+          <mxGeometry x="1152.5" y="763" width="160" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="9ArbLTDUJ1wJR90HOPjB-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
+        <mxCell id="9ArbLTDUJ1wJR90HOPjB-7" value="+ const char *name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-157" value="+ size_t class_size" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-9" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-158" value="+ const char *name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-159" value="+ const char *name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-10" value="TypeInfo/类型注册信息" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1400" y="756" width="210" height="322" as="geometry" />
@@ -355,6 +364,9 @@
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-152" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-150">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-153" value=";&lt;br&gt;&lt;br&gt;&lt;br&gt;;&lt;br&gt;&lt;br&gt;&lt;br&gt;size_t instance_size;&lt;br&gt;size_t instance_align;&lt;br&gt;&lt;br&gt;&lt;br&gt;void (*class_init)(ObjectClass *klass, void *data);&lt;br&gt;void (*class_base_init)(ObjectClass *klass, void *data);&lt;br&gt;&lt;br&gt;&lt;br&gt;void *class_data;&lt;br&gt;&lt;br&gt;&lt;br&gt;void (*instance_init)(Object *obj);&lt;br&gt;void (*instance_post_init)(Object *obj);&lt;br&gt;void (*instance_finalize)(Object *obj);&lt;br&gt;&lt;br&gt;&lt;br&gt;bool abstract;&lt;br&gt;&lt;br&gt;&lt;br&gt;const char *parent;&lt;br&gt;TypeImpl *parent_type;&lt;br&gt;&lt;br&gt;&lt;br&gt;ObjectClass *class;&lt;br&gt;&lt;br&gt;&lt;br&gt;int num_interfaces;&lt;br&gt;InterfaceImpl interfaces[MAX_INTERFACES];" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="710" width="320" height="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
