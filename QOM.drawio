@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T00:48:03.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="YMwfKLKXADvia904cgXa" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-06T00:49:21.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="VusfGqZ7lEf1WX4azFdJ" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="584" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-54" value="ObjectClass&#xa;所有Class的基类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="910" y="550" width="160" height="196" as="geometry" />
+          <mxGeometry x="910" y="550" width="160" height="222" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-59" value="- Type type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-54">
           <mxGeometry y="26" width="160" height="23" as="geometry" />
@@ -240,6 +240,9 @@
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-61" value="+ void (*unparent)(Object*)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-54">
           <mxGeometry y="170" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-105" value="+ object_class_dynamic_cast_assert" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-54">
+          <mxGeometry y="196" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-64" value="Object/对象的基类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="550" width="220" height="180" as="geometry" />
@@ -286,7 +289,7 @@
           <mxGeometry x="670" y="760" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-100" value="OBJECT_CLASS(class)" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="925" y="755" width="130" height="20" as="geometry" />
+          <mxGeometry x="925" y="790" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
