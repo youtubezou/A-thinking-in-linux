@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T11:33:29.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="f8_Zdmp09WGx0FSs2JxR" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-07T03:41:16.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" etag="QiomOwkaD7LQq1mmdN5B" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1460" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
           <mxGeometry x="900" y="300" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-19" value="ObjectProperty" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="620" width="200" height="309" as="geometry" />
+          <mxGeometry x="140" y="600" width="200" height="309" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-20" value="+ char *name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-19" vertex="1">
           <mxGeometry y="26" width="200" height="21" as="geometry" />
@@ -235,12 +235,11 @@
             <mxPoint x="820" y="1238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cbHXqA8iSh3WtXbqqi32-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9ArbLTDUJ1wJR90HOPjB-30" target="9ArbLTDUJ1wJR90HOPjB-49">
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="9ArbLTDUJ1wJR90HOPjB-29" target="9ArbLTDUJ1wJR90HOPjB-49">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="140" y="740" as="sourcePoint" />
             <mxPoint x="300.0000000000002" y="740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="310" y="741" />
               <mxPoint x="310" y="1429" />
             </Array>
           </mxGeometry>
@@ -282,7 +281,7 @@
           <mxGeometry y="279" width="180" height="41" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-64" value="Object/对象的基类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="575" y="370" width="220" height="230" as="geometry" />
+          <mxGeometry x="440" y="370" width="220" height="230" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-65" value="- ObjectClass *class" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cbHXqA8iSh3WtXbqqi32-64">
           <mxGeometry y="26" width="220" height="23" as="geometry" />
@@ -421,6 +420,9 @@
             <mxPoint x="1500" y="1170" as="sourcePoint" />
             <mxPoint x="1660.0000000000002" y="1170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-175" value="// type register&#xa;Type type_register(const TypeInfo *info);&#xa;Type type_register_static(const TypeInfo *info);&#xa;void type_register_static_array(const TypeInfo *infos, int nr_infos);&#xa;bool type_print_class_properties(const char *type);&#xa;&#xa;&#xa;// object&#xa;bool object_apply_global_props(Object *obj, const GPtrArray *props,&#xa;bool object_initialize_child_with_props(Object *parentobj,&#xa;bool object_initialize_child_with_propsv(Object *parentobj,&#xa;void object_initialize(void *obj, size_t size, const char *typename);&#xa;void object_initialize_child_internal(Object *parent, const char *propname,&#xa;void object_unparent(Object *obj);&#xa;void object_unref(void *obj);&#xa;void object_register_sugar_prop(const char *driver, const char *prop,&#xa;int object_child_foreach(Object *obj, int (*fn)(Object *child, void *opaque),&#xa;int object_child_foreach_recursive(Object *obj,&#xa;void object_apply_compat_props(Object *obj);&#xa;bool object_set_props(Object *obj, Error **errp, ...) QEMU_SENTINEL;&#xa;bool object_set_propv(Object *obj, Error **errp, va_list vargs);&#xa;void object_set_accelerator_compat_props(GPtrArray *compat_props);&#xa;void object_set_machine_compat_props(GPtrArray *compat_props);&#xa;void object_set_properties_from_keyval(Object *obj, const QDict *qdict,&#xa;size_t object_type_get_instance_size(const char *typename);&#xa;&#xa;&#xa;// object property&#xa;bool object_property_parse(Object *obj, const char *name,&#xa;bool object_property_set(Object *obj, const char *name, Visitor *v,&#xa;bool object_property_set_bool(Object *obj, const char *name,&#xa;bool object_property_set_int(Object *obj, const char *name,&#xa;bool object_property_set_link(Object *obj, const char *name,&#xa;bool object_property_set_str(Object *obj, const char *name,&#xa;bool object_property_set_uint(Object *obj, const char *name,&#xa;void object_property_set_default_bool(ObjectProperty *prop, bool value);&#xa;void object_property_set_default_int(ObjectProperty *prop, int64_t value);&#xa;void object_property_set_default_str(ObjectProperty *prop, const char *value);&#xa;void object_property_set_default_uint(ObjectProperty *prop, uint64_t value);&#xa;void object_property_set_description(Object *obj, const char *name,&#xa;bool     object_property_get(Object *obj, const char *name, Visitor *v,&#xa;bool     object_property_get_bool(Object *obj, const char *name,&#xa;int o    bject_property_get_enum(Object *obj, const char *name,&#xa;int64_t  object_property_get_int(Object *obj, const char *name,&#xa;uint64_t object_property_get_uint(Object *obj, const char *name,&#xa;void object_property_allow_set_link(const Object *obj, const char *name,&#xa;void object_property_del(Object *obj, const char *name);&#xa;void object_property_iter_init(ObjectPropertyIterator *iter,&#xa;&#xa;&#xa;// object class&#xa;bool object_class_is_abstract(ObjectClass *klass);&#xa;void object_class_foreach(void (*fn)(ObjectClass *klass, void *opaque),&#xa;void object_class_property_iter_init(ObjectPropertyIterator *iter,&#xa;void object_class_property_set_description(ObjectClass *klass, const char *name," style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="550" width="460" height="790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
