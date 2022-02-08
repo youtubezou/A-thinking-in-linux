@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T12:51:02.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="08z2T11wkKOqSl7yk172" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T12:52:41.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="cLug4ltn81KwWpccD9wy" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2272" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -541,10 +541,37 @@
         <mxCell id="da2cI0ehB98x8oTGPiK5-52" value="qobject-input-visitor" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="1610" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="da2cI0ehB98x8oTGPiK5-53" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="da2cI0ehB98x8oTGPiK5-52" target="da2cI0ehB98x8oTGPiK5-50">
+        <mxCell id="da2cI0ehB98x8oTGPiK5-53" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="da2cI0ehB98x8oTGPiK5-52" target="da2cI0ehB98x8oTGPiK5-50">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-10" y="1670" as="sourcePoint" />
             <mxPoint x="150" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="da2cI0ehB98x8oTGPiK5-54" value="qobject-output-visitor" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1650" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="da2cI0ehB98x8oTGPiK5-55" value="qapi-dealloc-visitor" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1610" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="da2cI0ehB98x8oTGPiK5-56" value="qapi-clone-visitor" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1650" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="da2cI0ehB98x8oTGPiK5-57" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="da2cI0ehB98x8oTGPiK5-54" target="da2cI0ehB98x8oTGPiK5-50">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-35" y="1620" as="sourcePoint" />
+            <mxPoint x="48.518518518518704" y="1579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="da2cI0ehB98x8oTGPiK5-58" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="da2cI0ehB98x8oTGPiK5-55" target="da2cI0ehB98x8oTGPiK5-50">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="20" y="1685" as="sourcePoint" />
+            <mxPoint x="68.99159663865566" y="1579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="da2cI0ehB98x8oTGPiK5-59" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="da2cI0ehB98x8oTGPiK5-56">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="20" y="1685" as="sourcePoint" />
+            <mxPoint x="60" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
