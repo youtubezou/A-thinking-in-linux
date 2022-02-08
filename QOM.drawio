@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T08:01:03.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="CRooYQBcG7KwEm4wAM8o" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T08:01:09.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="oOjJdA7iAE8x7SpZNed7" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1422" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="1330" y="510" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-6" value="TypeImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1123.75" y="750" width="306.25" height="596" as="geometry" />
+          <mxGeometry x="1123.75" y="750" width="306.25" height="588" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-7" value="+ const char *name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
           <mxGeometry y="26" width="306.25" height="20" as="geometry" />
@@ -47,58 +47,58 @@
           <mxGeometry y="126" width="306.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-164" value="+ const char *parent;&#xa;TypeImpl *parent_type;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="146" width="306.25" height="42" as="geometry" />
+          <mxGeometry y="146" width="306.25" height="34" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-165" value="+ ObjectClass *class;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="188" width="306.25" height="18" as="geometry" />
+          <mxGeometry y="180" width="306.25" height="18" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-166" value="+ int num_interfaces;&#xa;InterfaceImpl interfaces[MAX_INTERFACES];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="206" width="306.25" height="38" as="geometry" />
+          <mxGeometry y="198" width="306.25" height="38" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="244" width="306.25" height="8" as="geometry" />
+          <mxGeometry y="236" width="306.25" height="8" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-9" value="+ void (*class_init)(ObjectClass *, void *data);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="252" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="244" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-160" value="+ void (*class_base_init)(ObjectClass *, void *data)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="273" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="265" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-162" value="void (*instance_init)(Object *obj);&#xa;void (*instance_post_init)(Object *obj);&#xa;void (*instance_finalize)(Object *obj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="9ArbLTDUJ1wJR90HOPjB-6" vertex="1">
-          <mxGeometry y="294" width="306.25" height="50" as="geometry" />
+          <mxGeometry y="286" width="306.25" height="50" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="344" width="306.25" height="8" as="geometry" />
+          <mxGeometry y="336" width="306.25" height="8" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-9" value="- TypeImpl *type_new(const TypeInfo *info)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="352" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="344" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-11" value="- TypeImpl *type_register_internal(const TypeInfo *info)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="373" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="365" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-12" value="+ TypeImpl *type_register(const TypeInfo *info)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="394" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="386" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-13" value="+ TypeImpl *type_register_static(const TypeInfo *info)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="415" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="407" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-14" value="+ void type_register_static_array\&#xa;(const TypeInfo *infos, int nr_infos)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="436" width="306.25" height="40" as="geometry" />
+          <mxGeometry y="428" width="306.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-15" value="- TypeImpl *type_get_by_name(const char *name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="476" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="468" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-19" value="- TypeImpl *type_get_parent(TypeImpl *type)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="497" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="489" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-20" value="- bool type_is_ancestor(TypeImpl *type, TypeImpl *target_type)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="518" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="510" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-21" value="+ void type_initialize(TypeImpl *ti)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="539" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="531" width="306.25" height="21" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-22" value="+ void type_initialize_interface(TypeImpl *ti,\&#xa;  TypeImpl *interface_type, TypeImpl *parent_type)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9ArbLTDUJ1wJR90HOPjB-6">
-          <mxGeometry y="560" width="306.25" height="36" as="geometry" />
+          <mxGeometry y="552" width="306.25" height="36" as="geometry" />
         </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-10" value="TypeInfo/类型注册信息" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1600" y="750" width="210" height="322" as="geometry" />
