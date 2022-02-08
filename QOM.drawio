@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T12:46:49.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Xy00ALsk_ZJ5s0pO2rzc" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T12:48:39.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="E7LAh-bhyhwgPlgmlCJA" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2272" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -493,6 +493,9 @@
             <mxPoint x="1080" y="1590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="da2cI0ehB98x8oTGPiK5-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="da2cI0ehB98x8oTGPiK5-36" target="da2cI0ehB98x8oTGPiK5-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-36" value="qom-qobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-70" y="1258" width="300" height="100" as="geometry" />
         </mxCell>
@@ -520,7 +523,7 @@
         <mxCell id="da2cI0ehB98x8oTGPiK5-44" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="da2cI0ehB98x8oTGPiK5-43">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="da2cI0ehB98x8oTGPiK5-45" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="da2cI0ehB98x8oTGPiK5-43">
+        <mxCell id="da2cI0ehB98x8oTGPiK5-45" value="+ bool type_bool(Visitor*v, const char* name, bool* obj)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="da2cI0ehB98x8oTGPiK5-43">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="da2cI0ehB98x8oTGPiK5-46" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="da2cI0ehB98x8oTGPiK5-43">
