@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T12:11:47.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="pg6fMpg3LYsH5Mj1WATk" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T12:12:11.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="3KW-0fbsk10IbqOZeiEf" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1422" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -305,7 +305,7 @@
           <mxGeometry y="315" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-64" value="Object/对象的基类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="440" y="370" width="220" height="430" as="geometry" />
+          <mxGeometry x="470" y="245" width="220" height="430" as="geometry" />
         </mxCell>
         <mxCell id="cbHXqA8iSh3WtXbqqi32-65" value="- ObjectClass *class" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cbHXqA8iSh3WtXbqqi32-64" vertex="1">
           <mxGeometry y="26" width="220" height="23" as="geometry" />
