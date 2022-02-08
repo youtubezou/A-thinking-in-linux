@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T12:16:01.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="meIFI9bghPONRW6yCPnq" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T12:16:09.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="_ujcg7aWRaAtMZDLdLqg" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1422" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -259,12 +259,12 @@
             <mxPoint x="820" y="1238" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cbHXqA8iSh3WtXbqqi32-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="9ArbLTDUJ1wJR90HOPjB-29" target="9ArbLTDUJ1wJR90HOPjB-49" edge="1">
+        <mxCell id="cbHXqA8iSh3WtXbqqi32-53" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="da2cI0ehB98x8oTGPiK5-34" target="9ArbLTDUJ1wJR90HOPjB-49" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="140" y="740" as="sourcePoint" />
             <mxPoint x="300.0000000000002" y="740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="310" y="1429" />
+              <mxPoint x="240" y="1429" />
             </Array>
           </mxGeometry>
         </mxCell>
