@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T01:10:53.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="17iCkUJEb_Q8pnwHXjvH" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T01:17:51.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="QOsIZZdNqP4oxgoLvBUI" version="16.5.3" type="github">
   <diagram name="QEMU Object Model" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1422" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h99pO2Any7h_pi0E7Rck-11" value="类型注册" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=10;width=70;height=15;labelBorderColor=none;labelBackgroundColor=none;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1169.9" y="1720" width="530" height="230" as="geometry" />
+        </mxCell>
         <mxCell id="9ArbLTDUJ1wJR90HOPjB-1" value="InterfaceClass" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1413.1000000000001" y="250" width="180" height="114" as="geometry" />
         </mxCell>
@@ -580,14 +583,50 @@
             <mxPoint x="1300" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="da2cI0ehB98x8oTGPiK5-68" value="module_init" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="1264.9" y="1800" width="110" height="30" as="geometry" />
+        <mxCell id="h99pO2Any7h_pi0E7Rck-1" value="module_init" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1359.9" y="1800" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="da2cI0ehB98x8oTGPiK5-69" value="&lt;div style=&quot;color: rgb(187 , 187 , 187) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;quot;consolas&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;#define&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;module_init&lt;/span&gt;&lt;span style=&quot;color: #abb2bf&quot;&gt;(function&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #abb2bf&quot;&gt;type)&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #56b6c2&quot;&gt;\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;void&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;__attribute__&lt;/span&gt;((constructor))&amp;nbsp;do_qemu_init_&amp;nbsp;##&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;function&lt;/span&gt;(&lt;span style=&quot;color: #c678dd&quot;&gt;void&lt;/span&gt;)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #56b6c2&quot;&gt;\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #56b6c2&quot;&gt;\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;register_module_init&lt;/span&gt;(function,&amp;nbsp;type);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #56b6c2&quot;&gt;\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1503.75" y="1780" width="690" height="120" as="geometry" />
+        <mxCell id="h99pO2Any7h_pi0E7Rck-2" value="&lt;div style=&quot;color: rgb(187 , 187 , 187) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 10px ; line-height: 22px&quot;&gt;&lt;div style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1875" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="da2cI0ehB98x8oTGPiK5-70" value="block_init" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="1720" width="80" height="20" as="geometry" />
+        <mxCell id="h99pO2Any7h_pi0E7Rck-3" value="block_init" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1219.9" y="1760" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h99pO2Any7h_pi0E7Rck-4" value="opts_init" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1329.9" y="1760" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h99pO2Any7h_pi0E7Rck-5" value="type_init" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1429.9" y="1760" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h99pO2Any7h_pi0E7Rck-6" value="trace_init" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1529.9" y="1760" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h99pO2Any7h_pi0E7Rck-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h99pO2Any7h_pi0E7Rck-3" target="h99pO2Any7h_pi0E7Rck-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1020" y="1940" as="sourcePoint" />
+            <mxPoint x="1180" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h99pO2Any7h_pi0E7Rck-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h99pO2Any7h_pi0E7Rck-4" target="h99pO2Any7h_pi0E7Rck-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1270" y="1750" as="sourcePoint" />
+            <mxPoint x="1389.2307692307695" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h99pO2Any7h_pi0E7Rck-9" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h99pO2Any7h_pi0E7Rck-5" target="h99pO2Any7h_pi0E7Rck-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1380" y="1750" as="sourcePoint" />
+            <mxPoint x="1425" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h99pO2Any7h_pi0E7Rck-10" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h99pO2Any7h_pi0E7Rck-6" target="h99pO2Any7h_pi0E7Rck-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1480" y="1750" as="sourcePoint" />
+            <mxPoint x="1450" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h99pO2Any7h_pi0E7Rck-14" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;#define module_init(function, type)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;static void __attribute__((constructor))&amp;nbsp; \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;span&gt;	&lt;/span&gt;do_qemu_init_ ## function(void)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;{&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; register_module_init(function, type); \&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1219.9" y="1860" width="330" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
