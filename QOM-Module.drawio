@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T03:28:05.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="RzDJPXyNOO9JWHgC51Xc" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T09:51:29.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="6UigMBPYO-G0UBBlFZmb" version="16.5.4" type="github">
   <diagram id="6DpruF9Yd0py6zjCMm1G" name="Page-1">
     <mxGraphModel dx="572" dy="-251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FQiOv07JGeU5sPxUobCz-1" value="类型注册与初始化" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=10;width=110;height=15;labelBorderColor=none;labelBackgroundColor=#FFFFFF;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="900" y="1280" width="780" height="340" as="geometry" />
+          <mxGeometry x="900" y="1280" width="780" height="380" as="geometry" />
         </mxCell>
         <mxCell id="FQiOv07JGeU5sPxUobCz-2" value="type" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="FQiOv07JGeU5sPxUobCz-3" target="FQiOv07JGeU5sPxUobCz-19">
           <mxGeometry relative="1" as="geometry" />
@@ -95,8 +95,8 @@
             <mxPoint x="1214.9" y="1510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FQiOv07JGeU5sPxUobCz-23" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;qemu_init: , &amp;lt;./softmmu/vl.c 2866&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+-&lt;b&gt;module_call_init&lt;/b&gt;: MODULE_INIT_&lt;b&gt;TRACE-&amp;gt;QOM-&amp;gt;MIGRATION-&amp;gt;OPTS&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;\-bdrv_init_with_whitelist: void (void)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; \-bdrv_init: void (void), &amp;lt;./block.c 5754&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; \-&lt;b&gt;module_call_init&lt;/b&gt;: MODULE_INIT_&lt;b&gt;BLOCK&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Lucida Console;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="997.5" y="1540" width="450" height="70" as="geometry" />
+        <mxCell id="FQiOv07JGeU5sPxUobCz-23" value="&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;qemu_init: , &amp;lt;./softmmu/vl.c 2866&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;+-module_call_init: MODULE_INIT_&lt;b&gt;TRACE-&amp;gt;QOM-&amp;gt;MIGRATION-&amp;gt;OPTS&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;\-bdrv_init_with_whitelist: void (void)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; \-bdrv_init: void (void), &amp;lt;./block.c 5754&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; \-module_call_init: MODULE_INIT_&lt;b&gt;BLOCK&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;\-&lt;b&gt;init_type_list[type].init()&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Lucida Console;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="997.5" y="1550" width="450" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FQiOv07JGeU5sPxUobCz-24" value="&lt;span style=&quot;text-align: left&quot;&gt;ModuleTypeList init_type_list[MODULE_INIT_MAX]&lt;/span&gt;" style="html=1;labelBackgroundColor=none;labelBorderColor=none;fontFamily=Lucida Console;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1045" y="1490" width="345" height="30" as="geometry" />
