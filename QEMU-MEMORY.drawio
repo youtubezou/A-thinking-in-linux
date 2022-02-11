@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T10:11:40.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="dsvZgzzGyCnquS49V4VX" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T10:29:07.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="dZ9xWolG6WCYmIgVHzgz" version="16.5.4" type="github">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="Page-1">
     <mxGraphModel dx="1422" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,11 +14,25 @@
           <mxGeometry x="490" y="160" width="231" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-7" value="Memory根初始化：&lt;br&gt;1 +-qemu_init: void (int argc, char **argv, char **envp), &amp;lt;./softmmu/vl.c 2866&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; 2&amp;nbsp; &amp;nbsp;\-cpu_exec_init_all: void (void), &amp;lt;./softmmu/physmem.c 3035&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; 3&amp;nbsp; &amp;nbsp; &amp;nbsp;\-memory_map_init: void (void),&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\-&amp;nbsp;&lt;b&gt;memory_region_init(system_memory|system_io)&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+-&lt;b&gt;address_space_init(address_space_memory|io)&lt;/b&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;\-io_mem_init&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; \-&lt;b&gt;memory_region_init_io(io_mem_unassigned)&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="20" width="440" height="110" as="geometry" />
+          <mxGeometry x="100" y="20" width="440" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-8" value="AddressSpace address_space_io;&#xa;AddressSpace address_space_memory;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="155" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="lHg3y_46yC8aJabjndZl-10" value="&lt;div style=&quot;color: rgb(187 , 187 , 187) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;get_system_memory&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="195" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHg3y_46yC8aJabjndZl-11" value="&lt;div style=&quot;color: rgb(187 , 187 , 187) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;get_system_io&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="195" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHg3y_46yC8aJabjndZl-12" value="softmmu\physmem.c" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="140" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="https://github.com/airbus-seclab/qemu_blog" link="https://github.com/airbus-seclab/qemu_blog" id="lHg3y_46yC8aJabjndZl-13">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="610" y="30" width="260" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
