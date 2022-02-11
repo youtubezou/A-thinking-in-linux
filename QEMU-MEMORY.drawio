@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T10:29:07.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="dZ9xWolG6WCYmIgVHzgz" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T11:02:16.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Udl6MKeYX6XKSz7Lb0Iy" version="16.5.4" type="github">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="Page-1">
     <mxGraphModel dx="1422" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,11 +28,23 @@
         <mxCell id="lHg3y_46yC8aJabjndZl-12" value="softmmu\physmem.c" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="140" width="140" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="https://github.com/airbus-seclab/qemu_blog" link="https://github.com/airbus-seclab/qemu_blog" id="lHg3y_46yC8aJabjndZl-13">
+        <UserObject label="qemu-internals&lt;br&gt;https://github.com/airbus-seclab/qemu_blog" link="https://github.com/airbus-seclab/qemu_blog" id="lHg3y_46yC8aJabjndZl-13">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="610" y="30" width="260" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="lHg3y_46yC8aJabjndZl-14" value="softmmu\memory.c" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHg3y_46yC8aJabjndZl-15" value="static QLIST&amp;lt;AddressSpace&amp;gt; address_spaces;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHg3y_46yC8aJabjndZl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.659;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lHg3y_46yC8aJabjndZl-16" target="lHg3y_46yC8aJabjndZl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHg3y_46yC8aJabjndZl-16" value="info mtree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="320" width="70" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
