@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T08:02:36.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="nmD7GN0pFy1sBlGDen-n" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T08:02:49.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ZThWYTtGsFMl5MBfsqZz" version="16.5.4" type="github">
   <diagram id="gYynSZKOYsOQM2wcODcH" name="Page-1">
     <mxGraphModel dx="2249" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,11 +16,8 @@
         <mxCell id="OJSFKAHnHgMdeHk7zM6y-5" value="&lt;div style=&quot;color: rgb(187, 187, 187); background-color: rgb(40, 44, 52); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;Property&amp;nbsp;stm32f2xx_usart_properties&lt;/span&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;[]&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;&amp;nbsp;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #61afef&quot;&gt;DEFINE_PROP_CHR&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #98c379&quot;&gt;&quot;chardev&quot;&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;,&amp;nbsp;STM32F2XXUsartState,&amp;nbsp;chr),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #61afef&quot;&gt;DEFINE_PROP_END_OF_LIST&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;(),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;};&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1390" y="240" width="530" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="OJSFKAHnHgMdeHk7zM6y-82" value="定义用于" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="OJSFKAHnHgMdeHk7zM6y-6" target="OJSFKAHnHgMdeHk7zM6y-81">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="OJSFKAHnHgMdeHk7zM6y-6" value="&lt;div style=&quot;color: rgb(187, 187, 187); background-color: rgb(40, 44, 52); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;#define&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #61afef&quot;&gt;TYPE_STM32F2XX_USART&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #98c379&quot;&gt;&quot;stm32f2xx-usart&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #61afef&quot;&gt;OBJECT_DECLARE_SIMPLE_TYPE&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;(STM32F2XXUsartState,&amp;nbsp;STM32F2XX_USART)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="980" y="545" width="550" height="60" as="geometry" />
+          <mxGeometry x="966" y="580" width="550" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OJSFKAHnHgMdeHk7zM6y-8" value="SysBusDevice" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;fontColor=#000000;strokeColor=default;fillColor=none;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-20" y="220" width="160" height="86" as="geometry" />
@@ -194,8 +191,11 @@
             <mxPoint x="380" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OJSFKAHnHgMdeHk7zM6y-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="OJSFKAHnHgMdeHk7zM6y-81" target="OJSFKAHnHgMdeHk7zM6y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OJSFKAHnHgMdeHk7zM6y-81" value="&lt;div style=&quot;color: rgb(187, 187, 187); background-color: rgb(40, 44, 52); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;STM32F2XXUsartState&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;s&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #61afef&quot;&gt;STM32F2XX_USART&lt;/span&gt;&lt;span style=&quot;color: #bbbbbb&quot;&gt;(obj)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="630" width="420" height="40" as="geometry" />
+          <mxGeometry x="980" y="490" width="420" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
