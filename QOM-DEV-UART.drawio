@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T08:07:47.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="l6IHN2GvTZ-fEYd4R6Lc" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T08:08:38.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="cB37-p6FZNfvcmLPQJVq" version="16.5.4" type="github">
   <diagram id="gYynSZKOYsOQM2wcODcH" name="Page-1">
     <mxGraphModel dx="2249" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,11 +200,8 @@
         <mxCell id="OJSFKAHnHgMdeHk7zM6y-84" value="&lt;div style=&quot;color: rgb(187 , 187 , 187) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1050" y="695" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OJSFKAHnHgMdeHk7zM6y-85" value="&lt;div style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; color: rgb(187 , 187 , 187) ; background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;/div&gt;&lt;span style=&quot;font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; text-align: left ; background-color: rgb(40 , 44 , 52)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="960" y="660" width="680" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="OJSFKAHnHgMdeHk7zM6y-86" value="&lt;div&gt;static inline STM32F2XXUsartState* STM32F2XX_USART(const void* obj)&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;OBJECT_CHECK(&amp;nbsp;&lt;span style=&quot;color: rgb(97 , 175 , 239) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; background-color: rgb(40 , 44 , 52)&quot;&gt;TYPE_STM32F2XX_USART&lt;/span&gt;)&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="html=1;rounded=0;fontColor=#000000;strokeColor=default;fillColor=none;gradientColor=#ffffff;align=left;" vertex="1" parent="1">
-          <mxGeometry x="570" y="760" width="430" height="50" as="geometry" />
+        <mxCell id="OJSFKAHnHgMdeHk7zM6y-86" value="&lt;div&gt;static inline STM32F2XXUsartState*&amp;nbsp;&lt;span&gt;STM32F2XX_USART(const void* obj) {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; OBJECT_CHECK(STM32F2XXUsartState, obj, TYPE_STM32F2XX_USART)&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="html=1;rounded=0;fontColor=#000000;strokeColor=default;fillColor=none;gradientColor=#ffffff;align=left;" vertex="1" parent="1">
+          <mxGeometry x="966" y="675" width="430" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
