@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T09:48:00.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="QcmdLVPWl1pdzzrM0NR4" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T09:49:25.123Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="pZYWaslvf1mDV2grU_2K" version="16.5.6" type="github">
   <diagram id="dIdX_G1KkQ3wB-MaZZmV" name="Page-1">
     <mxGraphModel dx="1422" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-7" value="MPS2MachineState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="334" y="430" width="160" height="160" as="geometry" />
+          <mxGeometry x="334" y="430" width="160" height="208" as="geometry" />
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-8" value="+ ARMv7MState armv7m" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EstjiU5TqL2gn_dXMW3X-7">
           <mxGeometry y="26" width="160" height="20" as="geometry" />
@@ -100,8 +100,17 @@
         <mxCell id="EstjiU5TqL2gn_dXMW3X-28" value="+ MemoryRegion sram" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EstjiU5TqL2gn_dXMW3X-7">
           <mxGeometry y="120" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EstjiU5TqL2gn_dXMW3X-29" value="+ CMSDKAPBWatchdog watchdog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EstjiU5TqL2gn_dXMW3X-7">
-          <mxGeometry y="140" width="160" height="20" as="geometry" />
+        <mxCell id="EstjiU5TqL2gn_dXMW3X-30" value="APB" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="EstjiU5TqL2gn_dXMW3X-7">
+          <mxGeometry y="140" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EstjiU5TqL2gn_dXMW3X-29" value="+ MPS2SCC scc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EstjiU5TqL2gn_dXMW3X-7">
+          <mxGeometry y="148" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EstjiU5TqL2gn_dXMW3X-35" value="+ MPS2FPGAIO fpgaio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EstjiU5TqL2gn_dXMW3X-7">
+          <mxGeometry y="168" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EstjiU5TqL2gn_dXMW3X-34" value="+ CMSDKAPBWatchdog watchdog" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="EstjiU5TqL2gn_dXMW3X-7">
+          <mxGeometry y="188" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-11" value="MPS2MachineClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="340" width="160" height="112" as="geometry" />
