@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T09:52:11.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="VP78usUKGBOGBAU-uc4r" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T09:56:39.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="lRpQpAvP990N2iHPEKXb" version="16.5.6" type="github">
   <diagram id="dIdX_G1KkQ3wB-MaZZmV" name="Page-1">
     <mxGraphModel dx="2249" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,22 +140,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-36" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;TypeInfo mps2_info&lt;/span&gt;&#xa;&#xa;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="690" width="110" height="20" as="geometry" />
+          <mxGeometry x="344" y="695" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-37" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="780" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-38" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;TypeInfo mps2_an385_info&lt;/span&gt;&#xa;&#xa;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="720" width="150" height="20" as="geometry" />
+          <mxGeometry x="344" y="725" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-41" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;TypeInfo mps2_an386_info&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&#xa;&#xa;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="750" width="150" height="20" as="geometry" />
+          <mxGeometry x="344" y="755" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-42" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;TypeInfo mps2_an500_info&lt;/span&gt;&#xa;&#xa;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="780" width="150" height="20" as="geometry" />
+          <mxGeometry x="344" y="785" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EstjiU5TqL2gn_dXMW3X-45" value="&lt;span&gt;实例化不同的子类型&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=20;" vertex="1" parent="1">
+          <mxGeometry x="324" y="670" width="180" height="175" as="geometry" />
         </mxCell>
         <mxCell id="EstjiU5TqL2gn_dXMW3X-43" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;TypeInfo mps2_an511_info&lt;/span&gt;&#xa;&#xa;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="810" width="150" height="20" as="geometry" />
+          <mxGeometry x="344" y="815" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EstjiU5TqL2gn_dXMW3X-46" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="EstjiU5TqL2gn_dXMW3X-45">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="424" y="440" as="sourcePoint" />
+            <mxPoint x="410" y="630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
