@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T11:43:26.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="TQwynLfQQ5gUiNlyu0zW" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T11:44:10.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="_DJ1BPu1MEyOiTa7oBTA" version="16.6.1" type="github">
   <diagram id="s7khT9hOSnQoJCwWfRDU" name="Page-1">
     <mxGraphModel dx="2249" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QnAGGfaAY6AX2OodTETw-230" value="类型&amp;amp;对象初始化" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=20;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="130" width="550" height="540" as="geometry" />
+        </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-177" value="类型&amp;amp;对象注册" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=15;swimlaneFillColor=default;" vertex="1" parent="1">
           <mxGeometry x="1220" y="150" width="430" height="370" as="geometry" />
         </mxCell>
