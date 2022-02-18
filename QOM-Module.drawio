@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T04:04:14.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="nJV5azY_rZpQnfAGu8ZS" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T04:04:27.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="T-PHvxRQHNOPkjMHg6qo" version="16.6.1" type="github">
   <diagram id="6DpruF9Yd0py6zjCMm1G" name="Page-1">
     <mxGraphModel dx="572" dy="-251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FQiOv07JGeU5sPxUobCz-1" value="类型注册与初始化" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=10;width=110;height=15;labelBorderColor=none;labelBackgroundColor=#FFFFFF;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="900" y="1280" width="780" height="380" as="geometry" />
+          <mxGeometry x="900" y="1280" width="780" height="360" as="geometry" />
         </mxCell>
         <mxCell id="FQiOv07JGeU5sPxUobCz-2" value="type" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=10;fontColor=#000000;" parent="1" source="FQiOv07JGeU5sPxUobCz-3" target="FQiOv07JGeU5sPxUobCz-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
