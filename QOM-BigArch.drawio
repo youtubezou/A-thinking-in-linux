@@ -1,35 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T08:26:43.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8ep63jZC2GZZksBAYaYm" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T08:28:55.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="L7Nqlvw2xYGNn6LyA9Qf" version="16.6.1" type="github">
   <diagram id="s7khT9hOSnQoJCwWfRDU" name="Page-1">
     <mxGraphModel dx="1422" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QnAGGfaAY6AX2OodTETw-1" value="Object" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="320" width="260" height="94" as="geometry" />
+          <mxGeometry x="40" y="320" width="320" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-2" value="+ Map&lt;name,ObjectProperty*&gt; *properites;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-1">
-          <mxGeometry y="26" width="260" height="20" as="geometry" />
+        <mxCell id="QnAGGfaAY6AX2OodTETw-2" value="+ Map&lt;name,ObjectProperty*&gt; *properites; //对象级属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-1">
+          <mxGeometry y="26" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-1">
-          <mxGeometry y="46" width="260" height="8" as="geometry" />
+          <mxGeometry y="46" width="320" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-3" value="+ 引用计数资源管理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-1">
-          <mxGeometry y="54" width="260" height="20" as="geometry" />
+          <mxGeometry y="54" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-10" value="+ object_dynamic_cast_assert 动态类型转换" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-1">
-          <mxGeometry y="74" width="260" height="20" as="geometry" />
+          <mxGeometry y="74" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-5" value="ObjectClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="260" width="160" height="74" as="geometry" />
+          <mxGeometry x="460" y="320" width="290" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
-          <mxGeometry y="26" width="160" height="20" as="geometry" />
+        <mxCell id="QnAGGfaAY6AX2OodTETw-6" value="+ Map&lt;name,ObjectProperty*&gt;* properties; // 类属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
+          <mxGeometry y="26" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
-          <mxGeometry y="46" width="160" height="8" as="geometry" />
+          <mxGeometry y="46" width="290" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
-          <mxGeometry y="54" width="160" height="20" as="geometry" />
+          <mxGeometry y="54" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-11" value="DeviceState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="475" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-12" value="+ 设备状态信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-11">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-13" value="+ 设备初始化参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-11">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
