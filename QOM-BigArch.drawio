@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T11:34:03.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="1YNDJmeGBsztiCd4HznT" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T11:37:18.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KQkdC1rWkBx2tRM8fPqx" version="16.6.1" type="github">
   <diagram id="s7khT9hOSnQoJCwWfRDU" name="Page-1">
     <mxGraphModel dx="2249" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -515,13 +515,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-217" value="清空从父类拷贝的接口类&lt;br&gt;ti-&amp;gt;class-&amp;gt;interfaces = NULL;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="520" width="175" height="30" as="geometry" />
+          <mxGeometry x="1880" y="540" width="175" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QnAGGfaAY6AX2OodTETw-219" target="QnAGGfaAY6AX2OodTETw-221">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-219" value="添加父类的接口类到当前类&lt;br&gt;type_initialize_interface(ti, parent-&amp;gt;class-&amp;gt;interface)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="570" width="175" height="50" as="geometry" />
+          <mxGeometry x="1880" y="585" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QnAGGfaAY6AX2OodTETw-221" target="QnAGGfaAY6AX2OodTETw-195">
           <mxGeometry relative="1" as="geometry">
@@ -534,6 +534,12 @@
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-221" value="添加当前类的接口类信息&lt;br&gt;注意去重" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="1880" y="650" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-225" value="&lt;div&gt;The QOM framework will attempt the recreate a classes interface list from&lt;/div&gt;&lt;div&gt;scratch for each class. This means that a child class should zero out the&lt;/div&gt;&lt;div&gt;list of interfaces when cloned from the parent class.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1855" y="715" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-226" value="QOM将为每一个类重建所有接口列表.&lt;br&gt;从父类拷贝的接口应该清空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1857.5" y="505" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
