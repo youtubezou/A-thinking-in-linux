@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T09:58:27.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JUFLkU81CI0zkrNLBKY8" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-18T10:02:40.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="zzmCkwW3R-0i28VpVz7v" version="16.6.1" type="github">
   <diagram id="s7khT9hOSnQoJCwWfRDU" name="Page-1">
-    <mxGraphModel dx="2249" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,19 +26,22 @@
           <mxGeometry y="114" width="320" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-5" value="ObjectClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="485" y="280" width="290" height="94" as="geometry" />
+          <mxGeometry x="485" y="280" width="290" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-6" value="+ Map&lt;name,ObjectProperty*&gt;* properties; // 类属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
+        <mxCell id="QnAGGfaAY6AX2OodTETw-15" value="+ TypeImpl* type;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
           <mxGeometry y="26" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-15" value="+ List&lt;InterfaceClass*&gt; *interfaces; // 接口实现" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
+        <mxCell id="QnAGGfaAY6AX2OodTETw-6" value="+ Map&lt;name,ObjectProperty*&gt;* properties; // 类属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
           <mxGeometry y="46" width="290" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-131" value="+ List&lt;InterfaceClass*&gt; *interfaces; // 接口实现" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
+          <mxGeometry y="66" width="290" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
-          <mxGeometry y="66" width="290" height="8" as="geometry" />
+          <mxGeometry y="86" width="290" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-8" value="+ 类型方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-5">
-          <mxGeometry y="74" width="290" height="20" as="geometry" />
+          <mxGeometry y="94" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-11" value="DeviceState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="473" width="140" height="104" as="geometry" />
@@ -116,7 +119,7 @@
           <mxGeometry y="139" width="260" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-46" value="&lt;div&gt;hw\usb\bus.c&lt;br&gt;&lt;/div&gt;&lt;div&gt;// 属性注册&lt;/div&gt;&lt;div&gt;object_property_add_bool(obj,&amp;nbsp;&lt;span&gt;&quot;attached&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;usb_get_attached, usb_set_attached);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;// 属性getter/setter&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;background-color: rgb(40 , 44 , 52) ; line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;bool&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;usb_get_attached&lt;/span&gt;(Object&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #abb2bf&quot;&gt;obj&lt;/span&gt;,&amp;nbsp;Error&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;**&lt;/span&gt;&lt;span style=&quot;color: #abb2bf&quot;&gt;errp&lt;/span&gt;)&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;USBDevice&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;*&lt;/span&gt;dev&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;=&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;USB_DEVICE&lt;/span&gt;(obj);&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;return&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #e06c75&quot;&gt;dev&lt;/span&gt;-&amp;gt;&lt;span style=&quot;color: #e06c75&quot;&gt;attached&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;}&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&lt;span style=&quot;color: #c678dd&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;void&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;usb_set_attached&lt;/span&gt;(Object&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #abb2bf&quot;&gt;obj&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;bool&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #abb2bf&quot;&gt;value&lt;/span&gt;,&amp;nbsp;Error&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;**&lt;/span&gt;&lt;span style=&quot;color: #abb2bf&quot;&gt;errp&lt;/span&gt;)&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;USBDevice&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;*&lt;/span&gt;dev&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;=&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;USB_DEVICE&lt;/span&gt;(obj);&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;if&lt;/span&gt;&amp;nbsp;(value)&amp;nbsp;{&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;usb_device_attach&lt;/span&gt;(dev,&amp;nbsp;errp);&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&lt;span style=&quot;color: #c678dd&quot;&gt;else&lt;/span&gt;&amp;nbsp;{&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #61afef&quot;&gt;usb_device_detach&lt;/span&gt;(dev);&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&amp;nbsp; &amp;nbsp; dev-&amp;gt;attached = value;&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;// QAPI转换&lt;/div&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;object_property_set_bool&lt;/span&gt;(obj,&amp;nbsp;&lt;span style=&quot;color: #98c379&quot;&gt;&quot;attached&quot;&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #d19a66&quot;&gt;true&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #d19a66&quot;&gt;NULL&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px&quot;&gt;&lt;div style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 22px&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;object_property_get_bool(obj, &quot;attached&quot;, NULL)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px&quot;&gt;&lt;font color=&quot;#61afef&quot; face=&quot;consolas, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;// qemu monitor&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px&quot;&gt;&lt;font color=&quot;#61afef&quot; face=&quot;consolas, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;qom-set foo.attached = true&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px&quot;&gt;&lt;font color=&quot;#61afef&quot; face=&quot;consolas, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;qom-get foo attached&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 22px&quot;&gt;&lt;font color=&quot;#61afef&quot; face=&quot;consolas, courier new, monospace&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;qom-list /foo&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="935" y="649" width="640" height="620" as="geometry" />
+          <mxGeometry x="1095" y="640" width="640" height="620" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-47" value="QEMUMonitor(python)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-120" y="659" width="220" height="94" as="geometry" />
@@ -218,63 +221,63 @@
           <mxGeometry x="1200" y="280" width="430" height="252" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-86" value="TypeImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1158.75" y="-560" width="306.25" height="355" as="geometry" />
+          <mxGeometry x="248.75" y="50" width="251.25" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-87" value="+ const char *name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="26" width="306.25" height="20" as="geometry" />
+          <mxGeometry y="26" width="251.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-93" value="TypeImpl *parent_type;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="46" width="306.25" height="20" as="geometry" />
+          <mxGeometry y="46" width="251.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-94" value="+ ObjectClass *class;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="66" width="306.25" height="18" as="geometry" />
+          <mxGeometry y="66" width="251.25" height="18" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-95" value="InterfaceImpl interfaces[MAX_INTERFACES];" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="84" width="306.25" height="22" as="geometry" />
+          <mxGeometry y="84" width="251.25" height="22" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-96" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="106" width="306.25" height="8" as="geometry" />
+          <mxGeometry y="106" width="251.25" height="8" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-97" value="+ void (*class_init)(ObjectClass *, void *data);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="114" width="306.25" height="21" as="geometry" />
+          <mxGeometry y="114" width="251.25" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-98" value="+ void (*class_base_init)(ObjectClass *, void *data)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="135" width="306.25" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-99" value="void (*instance_init)(Object *obj);&#xa;void (*instance_post_init)(Object *obj);&#xa;void (*instance_finalize)(Object *obj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="156" width="306.25" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-100" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="206" width="306.25" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-101" value="- TypeImpl *type_new(const TypeInfo *info)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="214" width="306.25" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-102" value="- TypeImpl *type_get_by_name(const char *name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="235" width="306.25" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-103" value="- TypeImpl *type_get_parent(TypeImpl *type)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="256" width="306.25" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-104" value="- bool type_is_ancestor(TypeImpl *type, TypeImpl *target_type)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="277" width="306.25" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-105" value="+ void type_initialize(TypeImpl *ti)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="298" width="306.25" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="QnAGGfaAY6AX2OodTETw-106" value="+ void type_initialize_interface(TypeImpl *ti,\&#xa;  TypeImpl *interface_type, TypeImpl *parent_type)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
-          <mxGeometry y="319" width="306.25" height="36" as="geometry" />
+        <mxCell id="QnAGGfaAY6AX2OodTETw-99" value="void (*instance_init)(Object *obj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-86">
+          <mxGeometry y="135" width="251.25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-107" value="InterfaceImpl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-440" width="140" height="46" as="geometry" />
+          <mxGeometry x="90" y="164" width="140" height="46" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-108" value="+ const char *typename" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-107">
           <mxGeometry y="26" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QnAGGfaAY6AX2OodTETw-109" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QnAGGfaAY6AX2OodTETw-95" target="QnAGGfaAY6AX2OodTETw-107">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="795" y="-353" as="sourcePoint" />
-            <mxPoint x="955" y="-353" as="targetPoint" />
+            <mxPoint x="-115" y="257" as="sourcePoint" />
+            <mxPoint x="45" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-111" value="TypeInfo/类型注册信息" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="550.0000000000001" y="80" width="210" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-112" value="+ const char *name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-111">
+          <mxGeometry y="26" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-113" value="+ const char *parent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-111">
+          <mxGeometry y="46" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-114" value="+ InterfaceInfo *interfaces" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-111">
+          <mxGeometry y="66" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-123" value="+ size_t class_size" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-111">
+          <mxGeometry y="86" width="210" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-127" value="+ size_t instance_size" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="QnAGGfaAY6AX2OodTETw-111">
+          <mxGeometry y="107" width="210" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="QnAGGfaAY6AX2OodTETw-128" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.091;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QnAGGfaAY6AX2OodTETw-95" target="QnAGGfaAY6AX2OodTETw-113">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="470" as="sourcePoint" />
+            <mxPoint x="460" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
