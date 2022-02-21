@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T04:10:42.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="7jOPTPhnXE_KbWtsfGg-" version="16.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-21T04:13:53.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="rf2MUqGbSAtB2pRmJksn" version="16.6.1" type="github" pages="2">
   <diagram id="RcyMune0KPW6Q-b5uWD_" name="SOC-ARCH">
     <mxGraphModel dx="1422" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -392,7 +392,7 @@
       <root>
         <mxCell id="qz6yE31RNA0X8FO_8M00-0" />
         <mxCell id="qz6yE31RNA0X8FO_8M00-1" parent="qz6yE31RNA0X8FO_8M00-0" />
-        <mxCell id="qz6yE31RNA0X8FO_8M00-2" value="典型SOC架构" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;align=left;verticalAlign=top;" vertex="1" parent="qz6yE31RNA0X8FO_8M00-1">
+        <mxCell id="qz6yE31RNA0X8FO_8M00-2" value="SampleSOC/ SampleMachineState/MachineClass" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;align=left;verticalAlign=top;" vertex="1" parent="qz6yE31RNA0X8FO_8M00-1">
           <mxGeometry x="100" y="50" width="860" height="480" as="geometry" />
         </mxCell>
         <mxCell id="qz6yE31RNA0X8FO_8M00-3" value="CPU Clusters" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="qz6yE31RNA0X8FO_8M00-1">
