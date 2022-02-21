@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T08:36:37.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="XMpMP8RNPCpqz_ARIkRC" version="16.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-21T08:36:55.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="us9LBgwOM-_A4tu62NWu" version="16.6.1" type="github" pages="2">
   <diagram id="RcyMune0KPW6Q-b5uWD_" name="SOC-ARCH">
     <mxGraphModel dx="1422" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pj2IaiO7m8OMm6TyGpw1-23" value="PCIE" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="568.5" y="462.0000000000001" width="28" height="48" as="geometry" />
+          <mxGeometry x="568.5" y="462" width="28" height="38" as="geometry" />
         </mxCell>
         <mxCell id="pj2IaiO7m8OMm6TyGpw1-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=10;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="pj2IaiO7m8OMm6TyGpw1-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
