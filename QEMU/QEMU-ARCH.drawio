@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T02:32:51.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2kk7GOUPqkSAobjzw38I" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T02:36:13.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="E80WJAVC7-DGWVSJMX6D" version="16.6.1" type="github">
   <diagram id="RcyMune0KPW6Q-b5uWD_" name="Page-1">
     <mxGraphModel dx="1422" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
             <mxPoint x="880" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PgHBNwZBbpcAS7DVFFbe-18" value="Main Bus (AXI)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="PgHBNwZBbpcAS7DVFFbe-17">
+        <mxCell id="PgHBNwZBbpcAS7DVFFbe-18" value="Main Bus (AXI-128bit)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="PgHBNwZBbpcAS7DVFFbe-17">
           <mxGeometry x="-0.0987" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -78,8 +78,8 @@
             <mxPoint x="644.5" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PgHBNwZBbpcAS7DVFFbe-23" value="SRAM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="170" y="350" width="70" height="60" as="geometry" />
+        <mxCell id="PgHBNwZBbpcAS7DVFFbe-23" value="NorFlash" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PgHBNwZBbpcAS7DVFFbe-24" value="DDR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="710" y="180" width="70" height="60" as="geometry" />
@@ -88,6 +88,38 @@
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="744.5" y="290" as="sourcePoint" />
             <mxPoint x="744.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgHBNwZBbpcAS7DVFFbe-26" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=10;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startWidth=12;startSize=3.67;endWidth=12;endSize=3.67;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="204.5" y="360" as="sourcePoint" />
+            <mxPoint x="204.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgHBNwZBbpcAS7DVFFbe-28" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="90" y="370" as="sourcePoint" />
+            <mxPoint x="290" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgHBNwZBbpcAS7DVFFbe-29" value="FlashBus(AXI-128bit)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="PgHBNwZBbpcAS7DVFFbe-28">
+          <mxGeometry x="-0.0987" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgHBNwZBbpcAS7DVFFbe-30" value="NANDC&lt;br&gt;（NandFlash)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PgHBNwZBbpcAS7DVFFbe-32" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=10;startWidth=12;startSize=3.67;endWidth=12;endSize=3.67;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="134.5" y="420" as="sourcePoint" />
+            <mxPoint x="135" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgHBNwZBbpcAS7DVFFbe-33" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=10;startWidth=12;startSize=3.67;endWidth=12;endSize=3.67;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="249" y="420" as="sourcePoint" />
+            <mxPoint x="249" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
