@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T11:44:01.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Bm0bsXWKBCco03zsOKZu" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T11:46:15.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8f-ULJQjBd9hNn5G_Ck7" version="16.6.6" type="github">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
     <mxGraphModel dx="3114" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,8 +305,8 @@
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A8b28ugPqDq0Cs7UtEEN-8">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A8b28ugPqDq0Cs7UtEEN-12" value="GHashTable *flat_views" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="390" width="150" height="20" as="geometry" />
+        <mxCell id="A8b28ugPqDq0Cs7UtEEN-12" value="GHashTable&amp;lt;MR*, FV*&amp;gt; *flat_views" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="390" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
