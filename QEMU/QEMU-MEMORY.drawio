@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T13:13:24.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cRxqdNDXcROPCzoVKze_" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T13:17:04.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="0UkRoOInnXuodf01Zd0o" version="16.6.6" type="github">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
     <mxGraphModel dx="3114" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
         <mxCell id="lHg3y_46yC8aJabjndZl-71" value="+ RAMBlock *ram_block" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lHg3y_46yC8aJabjndZl-28" vertex="1">
           <mxGeometry y="104" width="350" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="lHg3y_46yC8aJabjndZl-78" value="+ MemoryRegion *alias" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lHg3y_46yC8aJabjndZl-28" vertex="1">
+        <mxCell id="lHg3y_46yC8aJabjndZl-78" value="+ MemoryRegion *alias; // 当前为别名MR,指向原MR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lHg3y_46yC8aJabjndZl-28" vertex="1">
           <mxGeometry y="130" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-75" value="+ MemoryRegion *container" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="lHg3y_46yC8aJabjndZl-28" vertex="1">
