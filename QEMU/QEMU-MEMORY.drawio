@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-05T11:13:52.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-Wu0m0OVFEd8RjhaY7oP" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-05T11:17:22.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="xEVeangqwXXA1hDoTwiI" version="16.6.6" type="github">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="Page-1">
     <mxGraphModel dx="2771" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
         <mxCell id="lHg3y_46yC8aJabjndZl-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="lHg3y_46yC8aJabjndZl-28" vertex="1">
           <mxGeometry y="260" width="350" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="lHg3y_46yC8aJabjndZl-31" value="+ memory_region_init(MemoryRegion *mr,struct Object *owner,&#xa;const char *name, uint64_t size) // mr通常作为container" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=11;" parent="lHg3y_46yC8aJabjndZl-28" vertex="1">
+        <mxCell id="lHg3y_46yC8aJabjndZl-31" value="+ memory_region_init(mr, owner, name,  size) // mr通常作为container" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;fontSize=11;" parent="lHg3y_46yC8aJabjndZl-28" vertex="1">
           <mxGeometry y="268" width="350" height="38" as="geometry" />
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-98" value="+ memory_region_init_io(*mr, *owner, *ops..)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="lHg3y_46yC8aJabjndZl-28" vertex="1">
@@ -261,13 +261,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-101" value="系统Memory总容器&lt;br&gt;static MemoryRegion *system_memory" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1350" y="442" width="220" height="30" as="geometry" />
+          <mxGeometry x="-1075" y="310" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-102" value="softmmu\physmem.c" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1350" y="422" width="140" height="30" as="geometry" />
+          <mxGeometry x="-1075" y="290" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-104" value="static MemoryRegion *system_io" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1350" y="482" width="190" height="30" as="geometry" />
+          <mxGeometry x="-1075" y="350" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-108" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="lHg3y_46yC8aJabjndZl-33" target="lHg3y_46yC8aJabjndZl-28" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -276,7 +276,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lHg3y_46yC8aJabjndZl-111" value="&lt;div style=&quot;color: rgb(187, 187, 187); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(198 , 120 , 221) ; font-style: italic&quot;&gt;@fv:&lt;/span&gt;&lt;span style=&quot;color: rgb(92 , 99 , 112) ; font-style: italic&quot;&gt;&amp;nbsp;the&amp;nbsp;flat&amp;nbsp;view&amp;nbsp;of&amp;nbsp;the&amp;nbsp;address&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(187, 187, 187); font-family: consolas, &amp;quot;courier new&amp;quot;, monospace; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;span style=&quot;color: rgb(92 , 99 , 112) ; font-style: italic&quot;&gt;&amp;nbsp;space&amp;nbsp;the&amp;nbsp;region&amp;nbsp;is&amp;nbsp;mapped&amp;nbsp;in&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1395" y="850" width="320" height="40" as="geometry" />
+          <mxGeometry x="-690" y="830" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.907;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lHg3y_46yC8aJabjndZl-44" target="lHg3y_46yC8aJabjndZl-73">
           <mxGeometry relative="1" as="geometry" />
@@ -286,6 +286,9 @@
             <mxPoint x="-660" y="711" as="sourcePoint" />
             <mxPoint x="-717.1000000000001" y="688.1319999999998" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="A8b28ugPqDq0Cs7UtEEN-4" value="static QLIST&amp;lt;AddressSpace&amp;gt; address_spaces;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="30" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
