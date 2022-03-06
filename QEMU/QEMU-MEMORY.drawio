@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T12:47:11.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="fxhMvEUDFNjNlkaACb31" version="16.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-06T12:48:34.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PHsUIUrnVC1f6_dRJAUO" version="16.6.6" type="github" pages="2">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
     <mxGraphModel dx="2771" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -614,11 +614,11 @@
         <mxCell id="vZ_WD0wdPMa28Tzx0Kb--40" value="offset3+max_legnth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-15;" vertex="1" parent="3KDHNoUzAjQbtAo-ixNv-1">
           <mxGeometry x="435" y="148" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vZ_WD0wdPMa28Tzx0Kb--41" value="ram_addr_t地址空间是动态分配的，不固定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3KDHNoUzAjQbtAo-ixNv-1">
-          <mxGeometry x="109" y="130" width="240" height="20" as="geometry" />
+        <mxCell id="vZ_WD0wdPMa28Tzx0Kb--41" value="ram_addr_t地址空间中offset是动态分配的，不固定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3KDHNoUzAjQbtAo-ixNv-1">
+          <mxGeometry x="109" y="128" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vZ_WD0wdPMa28Tzx0Kb--42" value="Guest物理地址空间是固定的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3KDHNoUzAjQbtAo-ixNv-1">
-          <mxGeometry x="109" y="50" width="170" height="20" as="geometry" />
+        <mxCell id="vZ_WD0wdPMa28Tzx0Kb--42" value="Guest物理地址空间中IO/RAM物理地址是固定的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3KDHNoUzAjQbtAo-ixNv-1">
+          <mxGeometry x="109" y="50" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
