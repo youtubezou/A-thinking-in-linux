@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T12:10:15.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="8y-n8pbpCS7ikBsEAtW8" version="16.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-06T12:10:44.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PpaA3kqIfym6JV9PYR_6" version="16.6.6" type="github" pages="2">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
     <mxGraphModel dx="2771" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -462,25 +462,31 @@
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-0" />
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-1" parent="3KDHNoUzAjQbtAo-ixNv-0" />
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="3KDHNoUzAjQbtAo-ixNv-1" vertex="1">
-          <mxGeometry x="120" y="70" width="610" height="8" as="geometry" />
+          <mxGeometry x="109" y="160" width="610" height="8" as="geometry" />
         </mxCell>
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-3" value="0-&amp;gt; UINT64_MAX" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3KDHNoUzAjQbtAo-ixNv-1" vertex="1">
-          <mxGeometry x="120" y="50" width="110" height="20" as="geometry" />
+          <mxGeometry x="109" y="140" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-5" value="ram_addr_t地址空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3KDHNoUzAjQbtAo-ixNv-1" vertex="1">
-          <mxGeometry x="600" y="50" width="120" height="20" as="geometry" />
+          <mxGeometry x="589" y="140" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="3KDHNoUzAjQbtAo-ixNv-1" vertex="1">
-          <mxGeometry x="120" y="220" width="610" height="8" as="geometry" />
+          <mxGeometry x="109" y="310" width="610" height="8" as="geometry" />
         </mxCell>
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-7" value="Host虚拟地址空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="3KDHNoUzAjQbtAo-ixNv-1" vertex="1">
-          <mxGeometry x="605" y="200" width="110" height="20" as="geometry" />
+          <mxGeometry x="594" y="290" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-8" value="ram_list.blocks" style="html=1;fillColor=none;" parent="3KDHNoUzAjQbtAo-ixNv-1" vertex="1">
-          <mxGeometry x="120" y="120" width="110" height="30" as="geometry" />
+          <mxGeometry x="109" y="210" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-9" value="RAMBlock&lt;br&gt;next" style="html=1;fillColor=none;" parent="3KDHNoUzAjQbtAo-ixNv-1" vertex="1">
-          <mxGeometry x="250" y="120" width="110" height="30" as="geometry" />
+          <mxGeometry x="239" y="210" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZ_WD0wdPMa28Tzx0Kb--0" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="3KDHNoUzAjQbtAo-ixNv-1">
+          <mxGeometry x="109" y="60" width="610" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vZ_WD0wdPMa28Tzx0Kb--1" value="Guest物理地址空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3KDHNoUzAjQbtAo-ixNv-1">
+          <mxGeometry x="599" y="40" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
