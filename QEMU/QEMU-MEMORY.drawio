@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T05:54:39.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UYexLPd73dpFB92_GedC" version="16.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-06T05:54:55.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mg7bLe_4rjFCFl2lmpny" version="16.6.6" type="github" pages="2">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
     <mxGraphModel dx="2771" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,7 +294,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-8" value="RAMBlock(Host内存管理)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-1370" y="887" width="260" height="216" as="geometry" />
+          <mxGeometry x="-1370" y="887" width="260" height="242" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-9" value="struct MemoryRegion *mr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A8b28ugPqDq0Cs7UtEEN-8">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -319,6 +319,9 @@
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-57" value="void (*resized)(const char*, length, host);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A8b28ugPqDq0Cs7UtEEN-8">
           <mxGeometry y="190" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k7bGQz6oFbnnFoFhkB7U-1" value="qemu_ram_xxx" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A8b28ugPqDq0Cs7UtEEN-8">
+          <mxGeometry y="216" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-12" value="GHashTable&amp;lt;MR*, FV*&amp;gt; *flat_views" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="-805" y="360" width="200" height="20" as="geometry" />
