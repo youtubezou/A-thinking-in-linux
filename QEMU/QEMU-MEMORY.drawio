@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T13:01:24.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="co60HekP9VDxcU9hTC13" version="16.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-06T13:02:04.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KWKB3taDqbWLCsYkeb-p" version="16.6.6" type="github" pages="3">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
     <mxGraphModel dx="2771" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -686,6 +686,14 @@
         <mxCell id="3mKS5MBML0ZjLU19MwII-2" value="RAMBlock.host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3KDHNoUzAjQbtAo-ixNv-1">
           <mxGeometry x="719" y="304" width="100" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nKlFosgHrWr9XV0NtLKg" name="DirtyMemory">
+    <mxGraphModel dx="782" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="JCuoxjUJza_BFRs0lDyo-0" />
+        <mxCell id="JCuoxjUJza_BFRs0lDyo-1" parent="JCuoxjUJza_BFRs0lDyo-0" />
       </root>
     </mxGraphModel>
   </diagram>
