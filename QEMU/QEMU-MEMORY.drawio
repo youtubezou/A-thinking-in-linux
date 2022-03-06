@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T05:54:55.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mg7bLe_4rjFCFl2lmpny" version="16.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-06T08:23:13.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="CX7iaAx7cKwmBepZLnMw" version="16.6.6" type="github" pages="2">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
     <mxGraphModel dx="2771" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -446,6 +446,9 @@
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-64" value="Host虚拟地址&amp;lt;-&amp;gt;Guest物理地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1220" y="945" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="w9IgJucsF-TAJtxrQgvv-1" value="http://blog.vmsplice.net/ qemu blogs, red hat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1605" y="10" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
