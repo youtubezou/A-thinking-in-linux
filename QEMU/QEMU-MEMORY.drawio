@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-12T12:06:10.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="BFJDoqg86i6HyHXhv0ye" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-12T12:07:07.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="hQe-lJkN6zCo7khkI8VG" version="17.1.2" type="github" pages="3">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
-    <mxGraphModel dx="2192" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2436" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -297,7 +297,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-8" value="RAMBlock(Host内存管理)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-1370" y="887" width="260" height="242" as="geometry" />
+          <mxGeometry x="-1345" y="887" width="260" height="242" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-9" value="struct MemoryRegion *mr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="A8b28ugPqDq0Cs7UtEEN-8" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
@@ -367,13 +367,13 @@
           <mxGeometry x="-1065" y="437.5" width="110" height="17" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-28" value="RAMList(所有Host RAM)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-1600" y="887" width="200" height="78" as="geometry" />
+          <mxGeometry x="-1600" y="887" width="210" height="78" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-29" value="QLIST&lt;RAMBlock*&gt; blocks" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="A8b28ugPqDq0Cs7UtEEN-28" vertex="1">
-          <mxGeometry y="26" width="200" height="26" as="geometry" />
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bTCO3puToB05aVLgNfYJ-1" value="DirtyMemoryBlocks* dirty_memory[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A8b28ugPqDq0Cs7UtEEN-28">
-          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        <mxCell id="bTCO3puToB05aVLgNfYJ-1" value="DirtyMemoryBlocks* dirty_memory[3]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="A8b28ugPqDq0Cs7UtEEN-28">
+          <mxGeometry y="52" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-33" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="A8b28ugPqDq0Cs7UtEEN-29" target="A8b28ugPqDq0Cs7UtEEN-9" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -382,7 +382,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-34" value="ram_list" style="html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1460" y="870" width="60" height="17" as="geometry" />
+          <mxGeometry x="-1450" y="870" width="60" height="17" as="geometry" />
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-45" value="host" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="A8b28ugPqDq0Cs7UtEEN-36" target="A8b28ugPqDq0Cs7UtEEN-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -451,7 +451,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A8b28ugPqDq0Cs7UtEEN-64" value="Host虚拟地址&amp;lt;-&amp;gt;Guest物理地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1220" y="945" width="190" height="20" as="geometry" />
+          <mxGeometry x="-1195" y="945" width="190" height="20" as="geometry" />
         </mxCell>
         <mxCell id="w9IgJucsF-TAJtxrQgvv-1" value="http://blog.vmsplice.net/ qemu blogs, red hat&lt;br&gt;http://blog.vmsplice.net/2016/01/qemu-internals-how-guest-physical-ram.html" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1640" width="420" height="30" as="geometry" />
