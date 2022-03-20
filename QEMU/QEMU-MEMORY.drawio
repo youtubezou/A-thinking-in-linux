@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T11:23:10.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="hucj-q31n6AM-j-1HEkg" version="17.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-20T07:06:24.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="KOFP4KMUNNrkI3AsKabi" version="17.1.2" type="github" pages="3">
   <diagram id="Z1-f5TAoEP9OV7cDx4_v" name="RAM类关系图">
-    <mxGraphModel dx="2632" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2932" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -460,40 +460,25 @@
           <mxGeometry x="-500" y="33.44999999999999" width="581" height="426.55" as="geometry" />
         </mxCell>
         <mxCell id="bTCO3puToB05aVLgNfYJ-2" value="DirtyMemoryBlocks" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-1345" y="1133" width="260" height="207" as="geometry" />
+          <mxGeometry x="-1345" y="1133" width="260" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="bTCO3puToB05aVLgNfYJ-3" value="struct MemoryRegion *mr" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
+        <mxCell id="bTCO3puToB05aVLgNfYJ-3" value="struct rcu_head rcu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
           <mxGeometry y="26" width="260" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="bTCO3puToB05aVLgNfYJ-4" value="uint8_t *host; //host内存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
+        <mxCell id="bTCO3puToB05aVLgNfYJ-4" value="unsigned long *blocks[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
           <mxGeometry y="47" width="260" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="bTCO3puToB05aVLgNfYJ-5" value="ram_addr_t offset; // guest物理地址偏移" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
-          <mxGeometry y="68" width="260" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="bTCO3puToB05aVLgNfYJ-6" value="ram_addr_t max_length;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
-          <mxGeometry y="89" width="260" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="bTCO3puToB05aVLgNfYJ-7" value="QLIST&lt;RAMBlock*&gt; next;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
-          <mxGeometry y="110" width="260" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="bTCO3puToB05aVLgNfYJ-8" value="QLIST&lt;RAMBlockNotifier*&gt; ramblock_notifiers;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
-          <mxGeometry y="131" width="260" height="21" as="geometry" />
-        </mxCell>
         <mxCell id="bTCO3puToB05aVLgNfYJ-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
-          <mxGeometry y="152" width="260" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="bTCO3puToB05aVLgNfYJ-10" value="void (*resized)(const char*, length, host);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
-          <mxGeometry y="160" width="260" height="26" as="geometry" />
+          <mxGeometry y="68" width="260" height="8" as="geometry" />
         </mxCell>
         <mxCell id="bTCO3puToB05aVLgNfYJ-11" value="qemu_ram_xxx" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bTCO3puToB05aVLgNfYJ-2">
-          <mxGeometry y="186" width="260" height="21" as="geometry" />
+          <mxGeometry y="76" width="260" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="j1WHtuEWYmCkUIa0fBtf" name="RAMBlock结构">
-    <mxGraphModel dx="782" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-0" />
         <mxCell id="3KDHNoUzAjQbtAo-ixNv-1" parent="3KDHNoUzAjQbtAo-ixNv-0" />
@@ -723,7 +708,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nKlFosgHrWr9XV0NtLKg" name="DirtyMemory">
-    <mxGraphModel dx="538" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JCuoxjUJza_BFRs0lDyo-0" />
         <mxCell id="JCuoxjUJza_BFRs0lDyo-1" parent="JCuoxjUJza_BFRs0lDyo-0" />
